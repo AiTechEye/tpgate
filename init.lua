@@ -8,7 +8,7 @@ tpgate.teleport_move=function(pos,player)
 end
 
 tpgate.teleport=function(pos,player)
-	local p=player:getpos()
+	local p=player:get_pos()
 	local x=math.floor((p.x-pos.x)+ 0.5)
 	local y=math.floor((p.y-pos.y)+ 0.5)
 	local z=math.floor(( p.z-pos.z)+ 0.5)
